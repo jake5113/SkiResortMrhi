@@ -1,0 +1,99 @@
+{ "경기" : [
+  {
+    "name" : "곤지암 리조트",
+    "businessDay" : "2022-2023",
+    "latitude" : "37.336944",
+    "longitude" : "127.293611"
+  },
+  {
+    "name" : "베어스타운 리조트",
+    "businessDay" : "",
+    "latitude" : "37.798056",
+    "longitude" : "127.247222"
+  },
+  {
+    "name" : "양지 파인 스키밸리",
+    "businessDay" : "",
+    "latitude" : "37.211944",
+    "longitude" : "127.295"
+  },
+  {
+    "name" : "지산 포레스트 리조트",
+    "businessDay" : "",
+    "latitude" : "37.216667",
+    "longitude" : "127.345278"
+  }
+],
+  "강원" : [
+    {
+      "name" : "엘리시안 강촌",
+      "businessDay" : "",
+    "latitude" : "37.8163989",
+    "longitude" : "127.587019"
+    },
+    {
+    "name" : "비발디파크",
+      "businessDay" : "",
+      "latitude" : "37.645",
+      "longitude" : "127.681944"
+    },
+    {
+      "name" : "알펜시아 리조트",
+      "businessDay" : "",
+      "latitude" : "37.661592",
+      "longitude" : "128.679861"
+    },
+    {
+      "name" : "오크밸리 리조트",
+      "businessDay" : "",
+      "latitude" : "37.407778",
+      "longitude" : "127.808889"
+    },
+    {
+      "name" : "오투 리조트",
+      "businessDay" : "",
+      "latitude" : "37.1775",
+      "longitude" : "128.947778"
+    },
+    {
+      "name" : "용평 리조트",
+      "businessDay" : "",
+      "latitude" : "37.647054",
+      "longitude" : "128.683702"
+    },
+    {
+      "name" : "웰리힐리 파크",
+      "businessDay" : "",
+      "latitude" : "37.490556",
+      "longitude" : "128.250556"
+    },
+    {
+      "name" : "하이원 리조트",
+      "businessDay" : "",
+      "latitude" : "37.208056",
+      "longitude" : "128.826111"
+    },
+    {
+      "name" : "휘닉스 평창 스노우파크",
+      "businessDay" : "",
+      "latitude" : "37.579894",
+      "longitude" : "128.320203"
+    }
+  ],
+  "충청/전라" : [
+    {
+      "name" : "무주 덕유산 리조트",
+      "businessDay" : "",
+      "latitude" : "35.890833",
+      "longitude" : "127.736944"
+    }
+  ],
+  "경상" : [
+    {
+      "name" : "에덴밸리 리조트",
+      "businessDay" : "",
+      "latitude" : "35.428889",
+      "longitude" : "128.984444"
+    }
+  ]
+}
