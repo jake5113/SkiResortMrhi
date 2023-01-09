@@ -20,19 +20,19 @@ class UserAdapter(val context: FragmentList, val UserList: ArrayList<User>) : Ba
     override fun getItemId(position: Int): Long {
         return 0
     }
+
     @SuppressLint("ViewHolder", "InflateParams")
     override fun getView(position: Int, convertView: View?, parent: ViewGroup?): View {
         val view: View = LayoutInflater.from(context.context).inflate(R.layout.list_item_user, null)
-        val profile = view.findViewById<ImageView>(R.id.tv_ski)
+        val profile = view.findViewById<ImageView>(R.id.tv_ski_img)
         val name = view.findViewById<TextView>(R.id.tv_skiresort_name)
         val region = view.findViewById<TextView>(R.id.tv_region)
-
         val user = UserList[position]
 
         profile.setImageResource(user.profile)
         name.text = user.name
         region.text = user.region
-        businessDay.text = user.businessDay
+
 
         return view
     }

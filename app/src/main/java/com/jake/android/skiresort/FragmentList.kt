@@ -2,12 +2,10 @@ package com.jake.android.skiresort
 
 import android.content.Intent
 import android.os.Bundle
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import com.google.android.gms.maps.model.BitmapDescriptorFactory
 import com.jake.android.skiresort.databinding.FragmentListBinding
 
 

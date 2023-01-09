@@ -6,7 +6,7 @@
     android:layout_height="wrap_content">
 
     <ImageView
-        android:id="@+id/tv_ski"
+        android:id="@+id/tv_ski_img"
         android:layout_width="70dp"
         android:layout_height="70dp"
         android:layout_marginStart="8dp"
@@ -19,7 +19,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/ski" />
+        app:srcCompat="@drawable/ski_alpensia" />
 
     <TextView
         android:id="@+id/tv_skiresort_name"
@@ -31,7 +31,7 @@
         android:text="스키장1"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         android:textSize="24sp"
-        app:layout_constraintStart_toEndOf="@+id/tv_ski"
+        app:layout_constraintStart_toEndOf="@+id/tv_ski_img"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
@@ -46,7 +46,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.157"
-        app:layout_constraintStart_toEndOf="@+id/tv_ski"
+        app:layout_constraintStart_toEndOf="@+id/tv_ski_img"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.208" />
 </androidx.constraintlayout.widget.ConstraintLayout>
