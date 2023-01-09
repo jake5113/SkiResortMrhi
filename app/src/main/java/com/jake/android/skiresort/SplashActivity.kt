@@ -23,7 +23,7 @@ class SplashActivity : AppCompatActivity() {
         imageView = findViewById(R.id.imageView)
 
         Glide.with(this)
-            .load(R.raw.bear)
+            .load(R.raw.splash1)
             .into(imageView)
 
         Handler().postDelayed({
