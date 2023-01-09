@@ -1,5 +1,15 @@
 package com.jake.android.skiresort
 
-class User (val profile: Int, val name: String, val region: String, val businessDay: String){
+import android.media.Image
+import com.google.android.gms.maps.model.LatLng
+import java.net.URL
 
+class User (val profile: Image,
+            val name: String,
+            val region : String
+            val LatLng: String,
+            val color: Float
+            val url: URL,
+            val businessDay: String,
+){
 }

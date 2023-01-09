@@ -25,26 +25,14 @@
         android:id="@+id/tv_skiresort_name"
         android:layout_width="246dp"
         android:layout_height="35dp"
-        android:layout_marginStart="8dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="24dp"
         android:fontFamily="sans-serif"
         android:text="스키장1"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         android:textSize="24sp"
-        app:layout_constraintBottom_toTopOf="@+id/tv_business_day"
         app:layout_constraintStart_toEndOf="@+id/tv_ski"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.47" />
-
-    <TextView
-        android:id="@+id/tv_business_day"
-        android:layout_width="238dp"
-        android:layout_height="32dp"
-        android:layout_marginStart="28dp"
-        android:layout_marginBottom="4dp"
-        android:text="2022-2023"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/tv_ski" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/tv_region"

@@ -35,6 +35,7 @@ android {
     buildFeatures {
         viewBinding true
     }
+    namespace 'com.jake.android.skiresort'
 }
 
 dependencies {
