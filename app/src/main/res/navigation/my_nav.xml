@@ -16,41 +16,28 @@
         android:label="fragment_list"
         tools:layout="@layout/fragment_list" >
         <action
+            android:id="@+id/action_fragmentList_to_detailActivity"
+            app:destination="@id/detailActivity" />
+        <action
             android:id="@+id/action_fragmentList_to_fragmentMap"
             app:destination="@id/fragmentMap" />
-        <action
-            android:id="@+id/action_fragmentList_to_detailFragment"
-            app:destination="@id/detailFragment" />
-        <action
-            android:id="@+id/action_fragmentList_to_fragmentShop"
-            app:destination="@id/fragmentShop" />
     </fragment>
-    <fragment
-        android:id="@+id/detailFragment"
-        android:name="com.jake.android.skiresort.DetailFragment"
-        android:label="fragment_detail"
-        tools:layout="@layout/fragment_detail" />
     <fragment
         android:id="@+id/fragmentMap"
         android:name="com.jake.android.skiresort.FragmentMap"
         android:label="fragment_map"
         tools:layout="@layout/fragment_map" >
         <action
+            android:id="@+id/action_fragmentMap_to_detailActivity"
+            app:destination="@id/detailActivity" />
+        <action
             android:id="@+id/action_fragmentMap_to_fragmentList"
             app:destination="@id/fragmentList" />
-        <action
-            android:id="@+id/action_fragmentMap_to_fragmentShop"
-            app:destination="@id/fragmentShop" />
     </fragment>
-    <fragment
-        android:id="@+id/fragmentShop"
-        android:name="com.jake.android.skiresort.FragmentShop"
-        android:label="FragmentShop" >
-        <action
-            android:id="@+id/action_fragmentShop_to_fragmentList"
-            app:destination="@id/fragmentList" />
-        <action
-            android:id="@+id/action_fragmentShop_to_fragmentMap"
-            app:destination="@id/fragmentMap" />
-    </fragment>
+    <activity
+        android:id="@+id/detailActivity"
+        android:name="com.jake.android.skiresort.DetailActivity"
+        android:label="activity_detail"
+        tools:layout="@layout/activity_detail" />
+
 </navigation>

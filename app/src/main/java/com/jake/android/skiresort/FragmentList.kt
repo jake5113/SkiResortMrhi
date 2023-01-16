@@ -127,7 +127,7 @@ class FragmentList : Fragment() {
             o2Url
         ),
         User(
-            R.drawable.ski_welly,
+            R.drawable.ski_yongpyong,
             "용평 리조트",
             "강원",
             FragmentMap().yongpyongLocation,
